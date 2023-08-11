@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-color: mintcream;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: #4ffff8;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #1dcdd2;
+  }
+  button:active,
+  button:focus {
+    outline: none;
+  }
+  
+
+  #card-area {
+    margin-top: 70px;
+  }
+  #card-area > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
